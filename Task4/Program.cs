@@ -12,7 +12,8 @@ if (number2 > number1 && number2 > number3)
    Console.WriteLine("Второе число больше остальных чисел"); 
 else
 if (number3 > number1 && number3 > number2)
-Console.WriteLine("Третье число больше остальных чисел"); 
-else
+   Console.WriteLine("Третье число больше остальных чисел"); 
+else 
+   Console.WriteLine("Числа равны, либо ни одно число не является максимальным"); 
 
 
